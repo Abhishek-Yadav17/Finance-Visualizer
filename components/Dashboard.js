@@ -133,7 +133,7 @@ const Dashboard = ({ transactions }) => {
           <Box>
             <Card sx={{ height: '18vh', minWidth: '200px', borderRadius: '22px', background: 'linear-gradient(to bottom,rgb(16, 16, 16),rgb(33, 31, 37))', border: '1px solid #424242', color: 'white' }}>
               <CardContent>
-                <Typography fontSize='1vw' sx={{mb: 1}}>Total Expenses</Typography>
+                <Typography fontSize='1vw' sx={{mb: 1}}>Total Expense</Typography>
                 <Typography variant="h5">${totalExpenses.toFixed(2)}</Typography>
               </CardContent>
             </Card>
